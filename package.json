@@ -1,7 +1,7 @@
 {
   "name": "angular-d3",
   "description": "AngularJS directive adding support for D3.js.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/beefsack/angular-d3",
   "author": {
     "name": "Michael Alexander",
@@ -23,16 +23,20 @@
   ],
   "main": "lib/angular-d3",
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.3.17",
-    "grunt-testacular": "~0.3.0",
-    "testacular": "~0.4.0",
-    "node-phantom": "~0.1.2"
+    "grunt-cli": "~0.1.7",
+    "grunt-karma": "~0.4.3",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "karma": "~0.8.5",
+    "node-phantom": "~0.2.1"
   },
   "keywords": []
 }

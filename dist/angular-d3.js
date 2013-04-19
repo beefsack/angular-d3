@@ -1,3 +1,13 @@
+/*! angular-d3 - v0.1.1 - 2013-04-19
+ * https://github.com/beefsack/angular-d3
+ * Copyright (c) 2013 Michael Alexander; Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %
+ */
+(function() {
+  'use strict';
+  angular.module('d3.directives', []);
+  angular.module('d3', ['d3.directives']);
+}());
+
 (function() {
   'use strict';
   angular.module('d3.directives').directive('d3', [
